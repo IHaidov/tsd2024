@@ -11,6 +11,7 @@ public class RobotOnMoon
 {
     public string isSafeCommand(string[] board, string S)
     {
+        int a = 0;
 		int positionX = -1;
 		int positionY = -1;
 		bool alive = true;
